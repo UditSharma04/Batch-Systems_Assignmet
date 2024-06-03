@@ -25,18 +25,38 @@ Figma Design --> https://www.figma.com/community/file/1145991068621514311
 
 ## Run Locally
 
-Download the given files
+Download the given files and place them in same folder
 
-main files : index.html , style.css , public(folder)
+Main files : index.html , style.css , public(folder)
 
 ```
 now run the index.html file
-
-Double click on index.html file
+ie: Double click on index.html file
 ```
+## Demo installation
+
+- Open this Repository
+![1](https://github.com/UditSharma04/Batch-Systems_Assignmet/assets/109049436/a5b909bd-d2eb-4277-bdaa-4c62957be903)
+
+- Download the provided files
+![2](https://github.com/UditSharma04/Batch-Systems_Assignmet/assets/109049436/4d36040e-2be7-4307-9915-381aeb3e00ee)
+
+- Go to the downloaded file location and extrat the zip file
+![3](https://github.com/UditSharma04/Batch-Systems_Assignmet/assets/109049436/ae94af54-e773-4180-8313-84999428888b)
+
+- Extract as follows
+
+![4](https://github.com/UditSharma04/Batch-Systems_Assignmet/assets/109049436/8c5b1264-8cc6-4f29-bfb0-606ce0410ff5)
+
+- Open the folder where the zip file has been extracted & simply double click on index.html file
+![5](https://github.com/UditSharma04/Batch-Systems_Assignmet/assets/109049436/d34049a2-69a0-4876-a683-53daa99d8519)
+
+- This is how you will run the webpage and obtain the following result
+![6](https://github.com/UditSharma04/Batch-Systems_Assignmet/assets/109049436/75510227-eabe-4270-a08a-19d0e76e412f)
 
 
-## Demo
+
+## How the webpage looks
 
 https://github.com/UditSharma04/Batch-Systems_Assignmet/assets/109049436/a533480c-f397-4838-ad3e-08dbce732f29
 
