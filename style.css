@@ -1,0 +1,635 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+/* Nav Bar */
+
+.logo {
+  scale: 0.5;
+}
+
+.myNav {
+  display: flex;
+  padding: 3px;
+  margin: 20px 165px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myNav button {
+  margin-right: 135px;
+  height: 60px;
+  width: 180px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+}
+
+.navChild {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: baseline;
+}
+
+.linkbar {
+  padding-top: 26px;
+  display: flex;
+  gap: 25px;
+}
+
+.linkbar a {
+  text-decoration: none;
+  position: relative;
+  line-height: 26px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: inherit;
+}
+
+#current {
+  text-decoration: none;
+  position: relative;
+  line-height: 26px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: tomato;
+  min-width: 60px;
+  z-index: 8;
+}
+
+/* Frame 1 */
+
+.frame-1 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 60px 40px;
+  padding: 2px;
+  justify-content: space-around;
+}
+
+.frame-1 .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 560px;
+}
+
+.heading h1 {
+  font-size: 53px;
+  font-weight: 800;
+}
+
+.generalText {
+  margin-left: 75px;
+}
+
+.generalText p {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.buttons {
+  margin-left: 75px;
+  display: flex;
+  gap: 37px;
+}
+
+.button1 button {
+  height: 60px;
+  width: 180px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+}
+
+.button2 {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.button2 button {
+  height: 60px;
+  width: 180px;
+  background-color: white;
+
+  color: black;
+}
+
+.image img {
+  width: 560px;
+}
+
+.frame-1 .right img {
+  height: 590px;
+  width: auto;
+  border-radius: 0px 0px 15px 0px;
+}
+
+/* Frame 2 */
+
+.frame-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 60px 60px;
+  padding: 2px;
+  justify-content: space-around;
+}
+
+.frame-2 .left img {
+  height: 660px;
+  width: auto;
+  border-radius: 0 0 5px;
+}
+
+.frame-2 .right {
+  margin-top: 51px;
+  height: 517px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.frame-2 .right .header .featureText p {
+  color: tomato;
+}
+
+.frame-2 .right .features {
+  display: flex;
+  flex-direction: column;
+  gap: 51px;
+}
+
+.f1,
+.f2,
+.f3 {
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+.f1 .head,
+.f2 .head,
+.f3 .head {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.f1 .head p,
+.f2 .head p,
+.f3 .head p {
+  font-weight: 600;
+}
+
+.f1 .text p,
+.f2 .text p,
+.f3 .text p {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+/* Frame 3 */
+
+.frame-3 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 60px 60px;
+  margin-left: 183px;
+  margin-right: 20px;
+  padding: 2px;
+  justify-content: space-around;
+}
+
+.frame-3 .left {
+  margin-top: 87px;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.frame-3 .advantages {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.frame-3 .left .header .advantageText p {
+  color: tomato;
+}
+
+.frame-3 .head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.frame-3 .head h2 {
+  font-weight: 800;
+}
+
+.frame-3 .text p {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.frame-3 .right img {
+  height: 560px;
+  width: auto;
+}
+
+/* Frame 4 */
+
+.frame-4 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 60px 60px;
+  padding: 2px;
+  justify-content: space-around;
+}
+
+.frame-4 .left img {
+  height: 640px;
+  width: auto;
+}
+
+.frame-4 .right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 180px;
+  margin-right: 90px;
+  height: 212px;
+  justify-content: space-around;
+}
+
+.frame-4 .head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.frame-4 .head h2 {
+  font-weight: 800;
+}
+
+.frame-4 .text p {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+/* Testinomial Header */
+
+.testiomilaHeader {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 488px;
+  text-align: center;
+  margin-top: 100px;
+  gap: 14px;
+  align-items: center;
+}
+
+.testiomilaHeader p {
+  font-weight: 600;
+}
+.testiomilaHeader h1 {
+  font-size: 53px;
+  font-weight: 800;
+}
+
+/* Frame 5 */
+
+.frame-5 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 60px 60px;
+  margin-top: 90px;
+  padding: 2px;
+  justify-content: space-around;
+}
+
+.frame-5 .left img {
+  height: 560px;
+  width: auto;
+}
+
+.frame-5 .right {
+  display: flex;
+  margin-top: 100px;
+  margin-right: 89px;
+  flex-direction: column;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.frame-5 .right .header h1 {
+  font-size: 37px;
+  font-weight: 700;
+}
+.frame-5 .right .text p {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.frame-5 .personName p {
+  font-weight: bold;
+}
+
+/* Frame 6 */
+
+.frame-6 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 60px 225px;
+  margin-top: 90px;
+  padding: 2px;
+  gap: 30px;
+  justify-content: flex-start;
+}
+
+.frame-6 .faqHead {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.frame-6 .faqHeader p {
+  color: tomato;
+}
+
+.frame-6 .faqText {
+  width: 560px;
+}
+
+.frame-6 .faqText h1 {
+  font-size: 53px;
+  font-weight: 800;
+}
+
+.frame-6 .faqs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.frame-6 .faqs .group-div {
+  display: flex;
+  gap: 17px;
+}
+
+.frame-6 .redBox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 27px;
+  background-color: #ff5555;
+  color: white;
+  text-align: start;
+  width: 50%;
+  border-radius: 6px;
+}
+
+.frame-6 .whiteBox {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding: 27px;
+  text-align: justify;
+  width: 50%;
+  border-radius: 6px;
+}
+
+.frame-6 .faqs .group-div .whiteBox p {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.frame-6 .faqs .group-div h3 {
+  font-weight: bolder;
+  font-size: 31px;
+}
+
+/* Frame 7 */
+
+.frame-7 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  align-items: center;
+}
+
+.frame-7 .bg img {
+  height: auto;
+  width: 1076px;
+}
+
+.frame-7 .front {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -325px;
+  left: -173px;
+  gap: 23px;
+}
+
+.frame-7 .front h1 {
+  color: white;
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.frame-7 .front p {
+  color: #ffffff9c;
+}
+
+.frame-7 .button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.frame-7 .button button {
+  border-style: none;
+  padding: 9px 14px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border-radius: 6px;
+}
+
+.frame-7 .button button p {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Frame 8 */
+
+.frame-8 {
+  margin: 0 200px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.frame-8 a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.frame-8 h2 {
+  font-size: 30px;
+}
+
+.frame-8 p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.frame-8 .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.frame-8 .contacts .icon img {
+  height: 30px;
+}
+
+.frame-8 .contacts .email {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.frame-8 .contacts .phoneNo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.frame-8 .links {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.frame-8 .legal {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.frame-8 .product {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.frame-8 .newsLetter {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.frame-8 .newsLetter div {
+  display: flex;
+  align-items: center;
+}
+
+.frame-8 .newsLetter input {
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  height: 58px;
+  width: 119px;
+}
+
+.frame-8 .newsLetter button {
+  height: 60px;
+  width: 180px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 65px;
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+}
+
+.hrLine {
+  width:74%;
+    height: 3PX;
+    border: 1px solid #8080804a;
+    background-color: #808080ba;
+    border-radius: 100%;
+}
+
+.footer p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+/* Ellipse */
+
+.bgEllipse{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Makes the stars not interfere with other elements */
+}
+
+.ellipse1 {
+  position: absolute;
+  top: 30px;
+  left: 222px;
+  z-index: -1;
+}
+
+.ellipse1 img {
+  height: 400px;
+  width: auto;
+}
