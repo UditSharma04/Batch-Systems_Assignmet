@@ -45,6 +45,13 @@ html {
   border: 1px solid black;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.myNav button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .navChild {
@@ -67,6 +74,12 @@ html {
   text-transform: capitalize;
   font-weight: 700;
   color: inherit;
+  transition: transform 0.2s ease-in-out, color 0.2s;
+}
+
+.linkbar a:hover {
+  transform: scale(1.1);
+  color: #007bff;
 }
 
 #current {
@@ -78,6 +91,12 @@ html {
   color: tomato;
   min-width: 60px;
   z-index: 8;
+  transition: transform 0.2s ease-in-out, color 0.2s;
+}
+
+#current:hover {
+  transform: scale(1.1);
+  color: #fff200;
 }
 
 /* Frame 1 */
@@ -125,20 +144,36 @@ html {
   border: 1px solid black;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.button1 button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .button2 {
   display: flex;
   gap: 16px;
   align-items: center;
+  justify-content: center;
 }
 
-.button2 button {
+.button2 {
   height: 60px;
   width: 180px;
   background-color: white;
-
   color: black;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.button2:hover {
+  transform: scale(1.1);
+  border: 1px solid tomato;
+  box-shadow: 0 10px 20px rgba(79, 73, 73, 0.2);
 }
 
 .image img {
@@ -412,6 +447,16 @@ html {
   text-align: start;
   width: 50%;
   border-radius: 6px;
+  transition: transform 0.2s ease-in-out, background-color 0.2s,
+    border-color 0.2s;
+}
+
+.frame-6 .redBox:hover {
+  transform: scale(1.1);
+  background-color: rgb(255, 255, 255);
+  color: red;
+  border: 1px solid grey;
+  border-radius: 20px;
 }
 
 .frame-6 .whiteBox {
@@ -480,6 +525,12 @@ html {
   align-items: center;
   gap: 13px;
   border-radius: 6px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.frame-7 .button button:hover {
+  border: 1px solid rgb(0, 58, 249);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
 }
 
 .frame-7 .button button p {
@@ -502,6 +553,12 @@ html {
   color: black;
   font-size: 14px;
   font-weight: 600;
+  transition: transform 0.2s ease-in-out,text-shadow 0.3s;
+}
+
+.frame-8 a:hover {
+  text-shadow: 0 0 5px rgba(0, 128, 255, 0.516);
+  transform: scale(1.1);
 }
 
 .frame-8 h2 {
@@ -579,8 +636,13 @@ html {
   border: 1px solid black;
   border-radius: 5px;
   color: white;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
+.frame-8 .newsLetter button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgb(47, 45, 42);
+}
 /* Footer */
 
 .footer {
@@ -597,11 +659,11 @@ html {
 }
 
 .hrLine {
-  width:74%;
-    height: 3PX;
-    border: 1px solid #8080804a;
-    background-color: #808080ba;
-    border-radius: 100%;
+  width: 74%;
+  height: 3px;
+  border: 1px solid #8080804a;
+  background-color: #808080ba;
+  border-radius: 100%;
 }
 
 .footer p {
@@ -611,9 +673,9 @@ html {
   font-weight: 600;
 }
 
-/* Ellipse */
+/* Ellipse not made responsive */ 
 
-.bgEllipse{
+.bgEllipse {
   position: fixed;
   top: 0;
   left: 0;
