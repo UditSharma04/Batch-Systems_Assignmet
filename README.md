@@ -3,6 +3,16 @@
 
 This repository contains code for the given assignment by Batch Systems
 
+- A basic HTML & CSS based UiFry Landing page containing
+  - NavBar with Download Button
+  - Features that UiFry provides
+  - Testinonmials
+  - FAQs
+  - Footer containing
+     - Related Links
+     - Policies and Legal Documents
+     - Products and NewsLetter
+
 Visit the site here -->  https://uditsharma04.github.io/Batch-Systems_Assignmet/
 
 Figma Design --> https://www.figma.com/community/file/1145991068621514311
@@ -20,7 +30,7 @@ Download the given files
 main files : index.html , style.css , public(folder)
 
 ```
-now run the idex.html file
+now run the index.html file
 
 Double click on index.html file
 ```
