@@ -5,6 +5,8 @@ This repository contains code for the given assignment by Batch Systems
 
 Visit the site here -->  https://uditsharma04.github.io/Batch-Systems_Assignmet/
 
+Figma Design --> https://www.figma.com/community/file/1145991068621514311
+
 
 ## Authors
 
